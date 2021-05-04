@@ -1,0 +1,46 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.ff-poppins {
+	font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+main#content {
+	padding: 60px 110px !important;
+}
+
+form > div.field:not(:first-child) {
+	margin: 25px 0 !important;
+}
+
+.navbar {
+	box-shadow: 10px 1px 20px rgba(0, 0, 0, 0.083) !important;
+}
+
+.table-action > a {
+	margin: 0 5px;
+}
+
+table,
+th,
+td {
+	text-align: center !important;
+}
+
+table {
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+th {
+	background: rgb(255, 221, 87);
+}
+
+th,
+td {
+	padding: 10px 0;
+}
+
+td {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.056);
+}
